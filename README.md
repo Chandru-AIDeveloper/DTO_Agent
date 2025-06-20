@@ -1,18 +1,25 @@
-# DTO Generator App (Frontend + Backend)
+# 🧠 DTO Generator App (Frontend + Backend)
 
-## 🐳 Requirements
-- Docker
-- Docker Compose
+This project is a full-stack **DTO (Data Transfer Object) Generator** that includes:
+
+- 🌐 A frontend web interface built with modern frameworks and served via Nginx
+- 🔙 A backend API server running with Gunicorn
+
+Both components are Dockerized and can be run together with Docker Compose — no manual setup or installs needed!
+
+---
+
+## 🧰 Requirements
+
+- [Docker](https://www.docker.com/products/docker-desktop/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+
+---
 
 ## 🚀 How to Run
 
+### 1. Clone the Repository
+
 ```bash
-docker pull chandrujp/dto_agent
-docker pull chandrujp/csharp-analyzer-backend
-docker-compose up
-
-##Visit the app:
-
-Frontend: http://localhost:3000
-
-Backend: http://localhost:5000
+git clone https://github.com/Chandru-AIDeveloper/DTO_Agent.git
+cd DTO_Agent
